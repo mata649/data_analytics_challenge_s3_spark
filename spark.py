@@ -1,6 +1,8 @@
 import findspark
 findspark.init()
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession, dataframe
+from pyspark.sql.types import StructType, StructField, IntegerType, StringType
+from pyspark.sql.functions import sum, count
 from cfg import AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 
 spark = SparkSession.builder.appName('ETL cultural places Argentina').getOrCreate()

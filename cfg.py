@@ -12,9 +12,10 @@ BUCKET_NAME=os.getenv('BUCKET_NAME')
 MUSEUMS_URL=os.getenv('MUSEUMS_URL')
 CINEMAS_URL=os.getenv('CINEMAS_URL')
 LIBRARIES_URL=os.getenv('LIBRARIES_URL')
-REDSHIFT_URL=os.getenv('REDSHIFT_URL')
 RUN_DATE = datetime.today()
-TEMP_DATA_DIR=os.getenv('TEMP_DATA_DIR')
+DB_URL=os.getenv('DB_URL')
+DB_USER=os.getenv('DB_USER')
+DB_PASSWORD=os.getenv('DB_PASSWORD')
 
 
 # S3 Connection
