@@ -18,7 +18,7 @@ This ETL process consists in get information from three different sources:
   
 
 -  **AWS Services:** AWS (Amazon Web Services) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.
--  -  **Apache Spark 3.2.1:** Apache Spark is a unified analytics engine for large-scale data processing. It provides high-level APIs in Java, Scala, Python and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including Spark SQL for SQL and structured data processing.
+- **Apache Spark 3.2.1:** Apache Spark is a unified analytics engine for large-scale data processing. It provides high-level APIs in Java, Scala, Python and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including Spark SQL for SQL and structured data processing.
 
 -  **venv:** The [`venv`](https://docs.python.org/3/library/venv.html#module-venv  "venv: Creation of virtual environments.") module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories.
 
