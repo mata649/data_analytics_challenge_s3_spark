@@ -10,3 +10,4 @@ spark = SparkSession.builder.appName('ETL cultural places Argentina').getOrCreat
 spark._jsc.hadoopConfiguration().set("fs.s3a.access.key", AWS_ACCESS_KEY_ID)
 spark._jsc.hadoopConfiguration().set("fs.s3a.secret.key", AWS_SECRET_ACCESS_KEY)
 spark._jsc.hadoopConfiguration().set("fs.s3a.endpoint", "s3.amazonaws.com")
+spark.sparkContext.setLogLevel("WARN")
