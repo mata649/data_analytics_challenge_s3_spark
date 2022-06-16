@@ -86,3 +86,4 @@ You need to add (or modify the .env.example) with the needed information to run 
 py main.py
 Running the main.py script you are going to start the ETL process, I will do a DockerFile Image of this ETL in the future to do the setup easier, but for now, this is the process to run the ETL.
   
+PD: Being sincerely when I started this project I wanted to load the information in redshift, but currently I'm having an issue with the Apache Redshift Community Driver and the S3 FileSystem, so looking in the GitHub it's currently an issue open with this error, so I created a branch to do the "redshift solution" in the future when the problem will be already fixed: [Fix URL](https://github.com/spark-redshift-community/spark-redshift/issues/103)
