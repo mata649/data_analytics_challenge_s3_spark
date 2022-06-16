@@ -17,7 +17,8 @@ This ETL process consists in get information from three different sources:
 
   
 
--  **Docker compose:** Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. You can read more about docker compose [here](https://docs.docker.com/compose/)
+-  **AWS Services:** [AWS (Amazon Web Services)](https://aws.amazon.com/what-is-aws/) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+- **Apache Spark 3.2.1:** [Apache Spark](https://spark.apache.org/docs/latest/) is a unified analytics engine for large-scale data processing. It provides high-level APIs in Java, Scala, Python and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including Spark SQL for SQL and structured data processing.
 
 -  **venv:** The [`venv`](https://docs.python.org/3/library/venv.html#module-venv  "venv: Creation of virtual environments.") module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories.
 
@@ -27,7 +28,6 @@ This ETL process consists in get information from three different sources:
 
 To install the project dependencies you need to create a new **virtual enviroment** with the next command:
 
-  
 
 py -m venv venv
 
@@ -47,7 +47,7 @@ And finally, you can install the dependencies running this command:
 pip install -r requeriments.txt
 
 **Important Note**
-We are writing and reading files from S3 and also writing (in my case) in a Postgres database in S3 we need to download some important packages:
+We are writing and reading files from S3 and also writing (in my case) in a Postgres database in AWS RDS we need to download some important packages:
 
  - [Apache Hadoop AWS](https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws)
   - [AWS SDK For Java Bundle](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle)
