@@ -47,7 +47,7 @@ And finally, you can install the dependencies running this command:
 pip install -r requeriments.txt
 
 **Important Note**
-We are writing and reading files from S3 and also writing (in my case) in a Postgres database in S3 we need to download some important packages:
+We are writing and reading files from S3 and also writing (in my case) in a Postgres database in AWS RDS we need to download some important packages:
 
  - [Apache Hadoop AWS](https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws)
   - [AWS SDK For Java Bundle](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle)
