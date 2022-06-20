@@ -2,7 +2,7 @@
 
   
 
-This ETL is inspired by the [Alkemy Data Analytics Challenge](https://cdn.discordapp.com/attachments/670996715083399199/942821808619520091/Challenge_Data_Analytics_con_Python.pdf), but was changed to implements **AWS S3, AWS RDS, and Spark**, I know that in some way do this with Spark is like killing an ant with a gun, but I think that it is a good challenge to practice.
+This ETL is inspired by the [Alkemy Data Analytics Challenge](https://cdn.discordapp.com/attachments/670996715083399199/942821808619520091/Challenge_Data_Analytics_con_Python.pdf), but was changed to implements **AWS S3, AWS RDS, and Spark**, I know that in some way doing this with Spark is like killing an ant with a gun, but I think that it is a good challenge to practice.
 This ETL process consists in get information from three different sources:
 
  - [Datos Argentina - Museos](https://datos.gob.ar/dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d)
